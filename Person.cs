@@ -12,6 +12,9 @@ namespace AbstractClassesAssignment
 
         public string lastName { get; set; }
 
-        public abstract void SayName();
+        public virtual void SayName()
+        {
+            Console.WriteLine(firstName + lastName);
+        }
     }
 }

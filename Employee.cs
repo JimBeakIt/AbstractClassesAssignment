@@ -10,7 +10,8 @@ namespace AbstractClassesAssignment
     {
         public override void SayName()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(firstName + lastName);
+
         }
     }
 }

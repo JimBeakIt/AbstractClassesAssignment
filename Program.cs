@@ -13,7 +13,7 @@ namespace AbstractClassesAssignment
             Employee iName = new Employee
             {
                 firstName = "Sample",
-                lastName = "Student"
+                lastName = " Student"
             };
 
             iName.SayName();
