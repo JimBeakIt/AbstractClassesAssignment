@@ -18,6 +18,12 @@ namespace AbstractClassesAssignment
 
             iName.SayName();
             Console.ReadLine();
+
+            Employee leave = new Employee();
+            {
+                leave.Quit();
+                Console.ReadLine();
+            }
         }
     }
 }
